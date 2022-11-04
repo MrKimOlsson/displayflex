@@ -1,0 +1,192 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 30px 80px;
+}
+
+header {
+    background-color: lightgray;
+    min-width:100%;
+    height: 150px;
+    display: absolute;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Header part */
+
+.content-wrapper {
+    display: absolute;
+    min-width:100%;    
+}
+
+.wrap-gray {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    min-width: 100%;
+}
+
+.gray {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.gray-two {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 20px 0px 0px;
+    min-width: 60%;
+    min-height: 600px;
+    padding: 10px 30px 10px 30px;
+    align-content: center;
+}
+
+.gray-three {
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0px 0px 20px;
+    min-width: 32%;
+    min-height: 600px;
+    padding: 30px;
+}
+
+.blue {
+    background-color: blue;
+    height: 60px;
+    width: 220px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink {
+    background-color: rgb(255, 0, 251);
+    height: 35px;
+    width: 35px;
+    margin: 20px;
+}
+
+
+/* Gray box nr 1 */
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.red-one {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color:red;
+    height: 500px;
+    width: 40%;
+    padding: 20px 35px;
+    margin: 20px 0px 20px 10px;
+}
+
+.red-two {
+    background-color:red;
+    height: 220px;
+    width: 270px;
+    padding: 20px;
+    margin: 10px 20px 10px 5px ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.red-three {
+    background-color:red;
+    height: 220px;
+    width: 270px;
+    padding: 20px;
+    margin: 10px 20px 10px 5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.yellow-one {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+}
+
+.yellow-two {
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    align-self: flex-end;   
+}
+
+.graybox {
+    background-color: lightgray;
+    height: 100px;
+    width: 100px;   
+}
+
+.navy {
+    position: relative;
+    background-color: navy;
+    height: 100px;
+    width: 100px;
+    left:40px;
+    top:40px;   
+}
+
+.purple {
+    background-color: lightblue;
+    width: 250px;
+    height: 70px;
+    margin: 10px;
+}
+
+.cyan {
+    background-color: cyan;
+    height: 70px;
+    width: 60px;
+    margin: 10px;
+}
+
+/* Gray box nr 2 */
+
+.green {
+    background-color: green;
+    width: 250px;
+    height: 70px;
+    margin: 10px;
+}
+
+.green-two {
+    background-color: green;
+    width: 70px;
+    height: 250px;
+    margin: 10px;
+}
+
+.green-row {
+    display: flex;
+    flex-direction: row;
+    
+}
